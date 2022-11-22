@@ -1,0 +1,67 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+
+}
+label{
+	font-size: 40px;
+	color: hotpink;
+	font-family:"Lucida Calligraphy";
+	text-decoration: none;
+	font-weight: 600;
+
+}
+label p{
+	font-family:Calibri;
+	font-size: 15px;
+	margin-left: 25%;
+	text-transform: uppercase;
+	line-height: 2px;
+}
+nav{
+	position: fixed;
+	background: white;
+	width: 100%;
+	padding: 10px 0;
+	padding-bottom: 15px;
+}
+
+
+nav div{
+	padding: 0px;
+	width: 90%;
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+	
+
+}
+nav ul{
+	display: inline-flex;
+
+}
+ul li a{
+	font-family: sans-serif;
+	text-transform: uppercase;
+	font-size: 16px;
+	text-decoration: none;
+	margin-left: 3vh;
+
+}
+	#open{
+	display: none;
+	font-size: 30px;
+	color: hotpink;
+	font-weight: 800;
+}
+
+@media screen and(max-width: 1007px){
+		#open{
+			display: block;
+			color: hotpink;
+			font-size: 30px;
+		}
+}

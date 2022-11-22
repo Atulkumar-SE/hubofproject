@@ -1,0 +1,146 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	font-style: 'poppins', sans-serif;
+}
+label{
+	color: white;
+	font-size: 30px;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+.navbar{
+	position: fixed;
+	z-index: 5;
+	width: 100%;
+	padding: 10px 0;
+	background: red;
+	color: white;
+
+}
+nav div{
+	width: 90%;
+	margin: auto;
+	padding: 30px;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+nav ul{
+	display: inline-flex;
+	margin-right: ;
+}
+nav ul li{
+	list-style: none;
+}
+
+
+nav ul li a{
+	color: white;
+	font-weight: 5px;
+	font-size: 20px;
+	margin-left: 39px;
+	text-decoration: none;
+	transition: all 0.3s ease;
+}
+ul li a:hover{
+	color: cyan;
+}
+
+nav i{
+	cursor: pointer;
+	margin-right:8% ;
+	font-size: 25px;
+	color: white;
+	display: none;
+
+}
+
+@media (max-width: 900px){
+		.menulist{
+			position: fixed;
+			width: 100%;
+			height: 50vh;
+			padding: 50px 0;
+			background: orange;
+			text-align: center;
+			top: 15.5%;
+			left: 0;
+			transition: 90%;
+			display: none;
+			
+
+		}
+		nav ul li a{
+			
+			font-size: 25px;
+			color: black;
+				
+		}
+		nav ul li{
+			margin-top: 20px;
+		}
+	 	 #closemenu{
+	 	 	position: fixed;
+			color: black;
+			z-index: 2;
+			top: 20vh;
+			right: 5%;
+
+		}
+		
+}
+
+
+/*@media (max-width: 700px){
+	nav ul{
+
+		position: fixed;
+		top: 16.8%;
+		left: -100%;
+		height: 50vh;
+		width: 100%;
+		width: 100%;
+		background: yellow;
+		padding: 40px 0px;
+		text-align: center;
+		float: right;
+		display: none;
+		transition: all 0.3s ease;
+
+	}
+	nav ul active{
+		left: 0%;
+	}
+	nav ul li a{
+		font-size: 25px;
+		color: black;	
+		
+	}
+	nav ul li a:hover{
+		color: hotpink;
+	}
+
+	nav ul li{
+		
+		margin-top: 6vh;
+		
+	}
+	
+	/*span{display: block;
+
+	}*/
+	/*#close{
+		display: block;
+		position: fixed;
+		top: 9rem;
+		right: 8%;
+		color: black;
+		z-index: 2;
+	}
+}*/

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>switch case</title>
+</head>
+<body>
+<h1>Calculator</h1>
+<form>
+	<label>1st value:</label>
+	<input type="text" name="" id="txtfst" />
+	<label>2nd value:</label>
+	<input type="text" name="" id="txtsnd"/>
+	<label>+ , - , * , / :</label>
+	<input type="text" name="" id="symbol" />
+	<input type="submit" name="btnsub1" value="Calculate" onclick="calc()" />
+</form>
+
+<script type="text/javascript">
+	
+function calc() 
+{
+	var a=parseInt(document.getElementById('txtfst').value);
+	var b=parseInt(document.getElementById('txtsnd').value);
+	var x=document.getElementById('symbol').value;
+
+	switch(x)
+		{
+			case'+': alert(a+"+"+b+"="+(a+b));
+			break;
+
+			case'-': alert(a+"-"+b+"="+(a-b));
+			break;
+
+			case'*': alert(a+"*"+b+"="+(a*b));
+			break;
+
+			case'/': alert(a+"/"+b+"="+(a/b));
+			break;
+
+			default: alert("Wrong Input");
+			break;
+		}
+}
+
+</script>
+</body>
+</html>

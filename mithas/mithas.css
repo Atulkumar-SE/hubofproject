@@ -1,0 +1,145 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#bar1{
+	background-color: #2C9C4A;
+	text-align: right;
+	height: 30px;
+	
+
+}
+
+.bar2{
+	background-color: #34A853;
+	height: 87px;
+}
+
+#logo{
+	height: 82px;
+	width: 114px;
+	margin-left: 25px;
+}
+.search{
+	position: absolute;
+	top: 6%;
+	left: 14%;
+	
+	
+}
+
+#textbox{
+	border:2px;
+	height: 42px;
+	width: 370px;		
+	/*border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;*/
+	border-radius: 5px;
+	border-color: #EBEBEB;
+	margin-left: 0px;
+}
+
+#button{
+	height:42px;
+	width: 48px;
+	background-color: orange;
+	border:0;
+	margin-left: -9px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+
+#text1{
+	padding: 3px;
+	margin-right: 45px;
+}
+.clock{
+		margin-left: 42%;
+		margin-top: -70px;
+		width: 90px;
+		text-align: center;
+		color: white;
+		font-family: sans-serif;
+		font-size: 13px;
+}
+
+#clock1{
+	width: 28px;
+	height: 30px;
+}
+
+#sbox{
+	
+	position: absolute;
+	top: 7%;
+	left: 75%;
+	
+
+}
+
+.support1{
+	width: 30px;
+	height:35px;
+	margin-left: 50px;
+	
+}
+
+#bar3{
+	background-color: white;
+	width: 100%;
+	height:51px ;
+	line-height: 45px;
+	text-align: center;
+	vertical-align: ;
+}
+
+
+
+.bar3_1{
+	font-size: 16px;
+	color: black;
+	margin:15px;
+	height: 6px;
+	font-family: sans-serif;
+}
+
+.funfact{
+			margin-top: 19px;
+			background: url(m99.jpg);
+			background-repeat: no-repeat;
+			background-size: 100%;
+}
+#fun{
+	margin-left: 20px;
+	width: 700px;
+	height: 340px;
+	font-size: 26px;
+	border:3px #1D86D1 solid;
+	text-align:justify;
+	padding: 5px;
+	background-color: ; 
+
+}
+h1{
+	margin-left: 190px;
+}
+ul{
+	list-style-position: inside;
+}
+
+#slide1{
+	margin-left: 800px;
+	margin-top: -350px;
+	width: 700px;
+	height: 340px;
+	color: red;
+		border:3px #1D86D1 solid;
+	overflow: hidden;
+}
+
+#slide1 img{
+	height: 0%;
+	width: 80%;
+}

@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+}
+body{
+    background-color: azure;
+}
+.heading{
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+.container{
+    background-color: red;
+    width: 80%;
+    
+    margin: auto;
+    text-align: center;
+   
+}
+.project{
+    background-color: aqua;
+    width: 40%;
+    height: 30vh;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+}

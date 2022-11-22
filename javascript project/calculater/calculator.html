@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	
+	<title>Calculators</title>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="Calculator.css">
+	
+</head>
+<body>
+	<a name="home">
+
+<nav>
+	<label class="logo">Design By Atul Jaiswal</label>
+<ul>
+	<li><a  href="#home">Home</a></li>      <!--class="active"-->
+	<li><a href="#home">Calcy</a></li>
+	<li><a href="#Calcy+">Calcy &nbsp;<b>+</b></a></li>
+	<li><a href="#Calcypro">Calcy &nbsp;Pro</a></li>
+	<li><a href="#">Contact</a></li>
+	
+</ul>
+</nav>
+<!----------------------------CALCULATOR 1 ----------------------------->
+<br><br><br><br><div><h1>Calcy</h1></div><br>
+	<div id="box">
+
+
+	<input type="text" id="cal"><br>
+	<input type="button" id="operator" value="CLEAR" onclick="document.getElementById('cal').value=' '">
+	<input type="button" class="operator" value="X" onclick="document.getElementById('cal').value+='*'"><br>
+	<input type="button" class="numerals" value="9" onclick="document.getElementById('cal').value+=9">
+	<input type="button" class="numerals" value="8" onclick="document.getElementById('cal').value+=8">
+	<input type="button" class="numerals" value="7" onclick="document.getElementById('cal').value+=7">
+	<input type="button" class="operator" value="/" onclick="document.getElementById('cal').value+='/'"><br>
+
+	<input type="button" class="numerals" value="6" onclick="document.getElementById('cal').value+=6">
+	<input type="button" class="numerals" value="5" onclick="document.getElementById('cal').value+=5">
+	<input type="button" class="numerals" value="4" onclick="document.getElementById('cal').value+=4">
+	<input type="button" class="operator" value="+" onclick="document.getElementById('cal').value+='+'"><br>
+
+	<input type="button" class="numerals" value="3" onclick="document.getElementById('cal').value+=3">
+	<input type="button" class="numerals" value="2" onclick="document.getElementById('cal').value+=2">
+	<input type="button" class="numerals" value="1" onclick="document.getElementById('cal').value+=1">
+	<input type="button" class="operator" value="-" onclick="document.getElementById('cal').value+='-'"><br>
+
+		<input type="button" class="numerals" value="0" onclick="document.getElementById('cal').value+=0">
+	<input type="button" class="numerals" value="00" onclick="document.getElementById('cal').value+='00'">
+	<input type="button" class="numerals" value="." onclick="document.getElementById('cal').value+='.'">
+	<input type="button" class="operator" value="=" onclick="document.getElementById('cal').value=eval(getElementById('cal').value)">
+	<br><br><br><br><br><br><br><br><br><a name="Calcy+">
+	<br><br><br><br><br><br><br><br><br>
+
+
+
+	</div>
+
+
+
+<!---------------------- CALCULATOR 1 end -------------------------->
+
+<br><br><br><br><br><br><br><br><br><br><br><br>
+
+<!-------------------------CALCULATOR 2------------------------------>
+<div><h1>Calcy +</h1></div><br><br>
+	<div id="main">
+		
+		<table>
+			<tr>
+				<input type="text" name="" id="input">
+			</tr>
+			<tr>
+				<td colspan="2"><button onclick="clearResult()">C</button></td>
+				<td><button onclick="backspace()"><i class="material-icons">backspace</i></button></td>
+				<td><button onclick="number('/')">/</button></td>
+				
+			</tr>
+
+			<tr>
+				<td><button onclick="number('7')">7</button></td>
+				<td><button onclick="number('8')">8</button></td>
+				<td><button onclick="number('9')">9</button></td>
+				<td><button onclick="number('*')">X</button></td>
+			</tr>
+
+			<tr>
+				<td><button onclick="number('4')">4</button></td>
+				<td><button onclick="number('5')">5</button></td>
+				<td><button onclick="number('6')">6</button></td>
+				<td><button onclick="number('+')">+</button></td>
+			</tr>
+
+			<tr>
+				<td><button onclick="number('1')">1</button></td>
+				<td><button onclick="number('2')">2</button></td>
+				<td><button onclick="number('3')">3</button></td>
+				<td><button onclick="number('-')">-</button></td>
+			</tr>
+
+			<tr>
+				<td><button onclick="number('0')">0</button></td>
+				<td><button onclick="number('.')">.</button></td>
+				<td><button onclick="result()">=</button></td>
+				<td><button onclick="number('%')">%</button></td>
+			</tr>
+		</table>
+			
+
+	</div>
+
+
+
+
+
+<!------------------------CALCULATOR 2 END-------------------------->
+
+
+
+<a name="Calcypro">
+<br><br><br><br><br><br><br><br><br><br><br><br><br><div><h1>Calcy Pro</h1></div><br><br><br><br><br><br><br><br>
+
+<!-------------------------CALCULATOR 3------------------------------>
+<br><br>
+	<div id="main">
+		
+		<table>
+			<tr>
+				<input type="text" name="" id="input">
+			</tr>
+			<tr>
+				<td colspan="2"><button onclick="clearResult()">C</button></td>
+				<td><button onclick="backspace()"><i class="material-icons">backspace</i></button></td>
+				<td><button onclick="number('/')">/</button></td>
+				
+			</tr>
+
+			<tr>
+				<td><button onclick="number('7')">7</button></td>
+				<td><button onclick="number('8')">8</button></td>
+				<td><button onclick="number('9')">9</button></td>
+				<td><button onclick="number('*')">X</button></td>
+			</tr>
+
+			<tr>
+				<td><button onclick="number('4')">4</button></td>
+				<td><button onclick="number('5')">5</button></td>
+				<td><button onclick="number('6')">6</button></td>
+				<td><button onclick="number('+')">+</button></td>
+			</tr>
+
+			<tr>
+				<td><button onclick="number('1')">1</button></td>
+				<td><button onclick="number('2')">2</button></td>
+				<td><button onclick="number('3')">3</button></td>
+				<td><button onclick="number('-')">-</button></td>
+			</tr>
+
+			<tr>
+				<td><button onclick="number('0')">0</button></td>
+				<td><button onclick="number('.')">.</button></td>
+				<td><button onclick="result()">=</button></td>
+				<td><button onclick="number('%')">%</button></td>
+			</tr>
+		</table>
+			
+
+	</div>
+
+
+
+
+
+<!------------------------CALCULATOR 3 END-------------------------->
+
+<br><br><br><br><br><br>
+
+
+
+<script type="text/javascript" src="Calculator.js"></script>
+
+
+
+</body>
+</html>

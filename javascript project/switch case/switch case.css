@@ -1,0 +1,47 @@
+
+.num{
+	width: 10%;
+	height: 5vh;
+	border: 4;
+
+}
+
+.opr{
+	width: 4%;
+	height: 5vh;
+
+}
+
+#button{
+	width: 12%;
+	height: 6vh;
+	border: 5;
+	background: blue;
+	color: white;
+	font-size: 20px;
+}
+
+#text{
+	width: 30%;
+	height: 10vh;
+	background: lightgray;
+}
+p{
+	font-size: 25px;
+	font-weight: 9px;
+}
+
+#btn6{
+	width: 12%;
+	height: 6vh;
+	border: 5;
+	background: blue;
+	color: white;
+	font-size: 20px;
+}
+
+#tabarea{
+	width: 40%;
+	height: 40vh;
+	background: lightblue;
+}
